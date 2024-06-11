@@ -15,19 +15,6 @@ The Flight Log Management System offers several key functions to streamline dron
 - **Operator Listing:** View a list of pilots, operators, and commanders, with detailed flight hour information.
 - **Interactive Interface:** Easy navigation and data retrieval for enhanced usability.
 
-  ## Layout
-1. **Front Page Display**
-   ![Front Page](front_page.png)
-
-2. **Insertion Page**
-   ![Insertion Page](insertion_page.png)
-
-3. **Drone Systems Listing**
-   ![Drone Systems](drone_systems.png)
-
-4. **Operator Listing and Flight Details**
-   ![Operator Listing](operator_listing.png)
-
 ## How it Works
 1. **Front Page:** Displays the entire flight log database, sorted by the latest flights.
 2. **Insertion Page:** Allows users to insert new flight logs directly into the database.
