@@ -38,4 +38,4 @@ The Flight Log Management System offers several key functions to streamline dron
 - Contributions and suggestions are welcome via GitHub pull requests.
 
 ## License
-This project is licensed under the [License Name]. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT]. See the [LICENSE](LICENSE) file for details.
