@@ -1,168 +1,74 @@
-/* styles.css */
-
-/* Resetting default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    text-align: center; /* Center-align text */
 }
 
-/* Body styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-}
-
-/* Header styles */
-.header {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    text-align: center; /* Center-align header content */
-}
-
-.logo {
-    margin-right: auto; /* Pushes buttons to the right */
-}
-
-/* Button styles */
-.nav-links {
-    display: flex;
-    justify-content: center; /* Center-align buttons */
-}
-
-.btn-add {
-    margin-left: 15px;
-}
-
-.btn-add a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #007bff;
-    padding: 10px 20px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.btn-add a:hover {
-    background-color: #0056b3;
-}
-
-/* Table styles */
-.container {
-    max-width: 1200px;
-    margin: 10px auto;
-    padding: 10px;
-    border: 1px solid #00670b;
-    border-radius: 10px;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-
-.table-container {
-    overflow-x: auto;
-    padding: 20px;
-}
-
-table {
-    font-size: 12px;
-    border-collapse: collapse;
-    width: 100%; /* Table width spans container */
-}
-
-th {
-    background-color: #343a40;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-    border: 2px solid #000;
-    text-align: center; /* Center-align table headers */
-}
-
-td {
-    border: 1px solid #000;
-    padding: 5px; /* Adjust padding to make cells smaller */
-    font-size: 12px; /* Adjust font size to match table font size */
-    text-align: center; /* Center-align table data */
-}
-
-tr:hover td {
-    background-color: #ff0000; /* Change the background color of cells in the hovered row */
-    color: #ffffff; /* Change the text color of cells in the hovered row */
-}
-
-/* Footer styles */
-.footer-container {
-    font-size: 15px;
-    text-align: center;
-    margin-top: 25px;
-}
-
-.footer-container p {
-    display: inline-block; /* Ensures the link is centered */
-}
-
-/* System buttons styles */
+/* System button container styles */
 .system-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px; /* Adjust the gap between buttons */
-    margin-bottom: 20px; /* Add some margin at the bottom */
-    margin-top: 20px;
+    display: flex; /* Flex container */
+    flex-wrap: wrap; /* Wrap items to next line */
+    justify-content: center; /* Center items horizontally */
+    gap: 10px; /* Gap between buttons */
+    margin-bottom: 20px; /* Margin bottom for spacing */
+    margin-top: 20px; /* Margin top for spacing */
 }
 
+/* System button styles */
 .system-btn {
-    width: 150px; /* Adjust the button width */
+    width: 150px; /* Button width */
     background-color: #df4209; /* Default button color */
-    color: #fff;
-    text-align: center; /* Center-align button text */
+    color: #fff; /* Text color */
 }
 
+/* Even system button styles */
 .system-btn:nth-child(even) {
     background-color: #10922e; /* Even button color */
 }
 
-/* System image styles */
+/* Center-align system image */
 .system-image {
-    display: block;
-    margin: 0 auto;
-    max-width: 320px; /* Adjust to make the image smaller */
-    max-height: 240px; /* Adjust to make the image smaller */
-    width: auto; /* Ensures aspect ratio is maintained */
-    height: auto; /* Ensures aspect ratio is maintained */
+    align-items: center; /* Center-align items */
+    display: block; /* Block-level display */
+    margin: 0 auto; /* Center-align image */
+    max-width: 320px; /* Maximum width */
+    max-height: 240px; /* Maximum height */
+    width: auto; /* Auto width */
+    height: auto; /* Auto height */
 }
 
-/* Details styles */
+/* Heading styles */
 h3 {
-    text-align: center;
-    margin-top: 20px;
+    text-align: center; /* Center-align heading */
+    margin-top: 20px; /* Margin top for spacing */
 }
 
+/* Flight log details container styles */
 .flight-log-details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    display: flex; /* Flex container */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Margin bottom for spacing */
 }
 
+/* Details grid container styles */
 .details {
-    display: grid;
+    display: grid; /* Grid layout */
     grid-template-columns: 1fr 1fr; /* Two columns */
     gap: 15px; /* Gap between columns */
 }
 
+/* Detail box styles */
 .details div {
     background-color: #f1f1f1; /* Light grey background for each detail box */
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10px; /* Padding for each detail box */
+    border-radius: 5px; /* Rounded corners */
     text-align: left; /* Align text to the left */
 }
 
+/* Detail label styles */
 .details label {
-    font-weight: bold;
+    font-weight: bold; /* Bold text for labels */
 }
 
+/* Detail text styles */
 .details span {
-    display: block;
+    display: block; /* Display block for each detail text */
 }
