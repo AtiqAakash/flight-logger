@@ -1,0 +1,168 @@
+/* styles.css */
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center; /* Center-align header content */
+}
+
+.logo {
+    margin-right: auto; /* Pushes buttons to the right */
+}
+
+/* Button styles */
+.nav-links {
+    display: flex;
+    justify-content: center; /* Center-align buttons */
+}
+
+.btn-add {
+    margin-left: 15px;
+}
+
+.btn-add a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add a:hover {
+    background-color: #0056b3;
+}
+
+/* Table styles */
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #00670b;
+    border-radius: 10px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.table-container {
+    overflow-x: auto;
+    padding: 20px;
+}
+
+table {
+    font-size: 12px;
+    border-collapse: collapse;
+    width: 100%; /* Table width spans container */
+}
+
+th {
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #000;
+    text-align: center; /* Center-align table headers */
+}
+
+td {
+    border: 1px solid #000;
+    padding: 5px; /* Adjust padding to make cells smaller */
+    font-size: 12px; /* Adjust font size to match table font size */
+    text-align: center; /* Center-align table data */
+}
+
+tr:hover td {
+    background-color: #ff0000; /* Change the background color of cells in the hovered row */
+    color: #ffffff; /* Change the text color of cells in the hovered row */
+}
+
+/* Footer styles */
+.footer-container {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.footer-container p {
+    display: inline-block; /* Ensures the link is centered */
+}
+
+/* System buttons styles */
+.system-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap between buttons */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+    margin-top: 20px;
+}
+
+.system-btn {
+    width: 150px; /* Adjust the button width */
+    background-color: #df4209; /* Default button color */
+    color: #fff;
+    text-align: center; /* Center-align button text */
+}
+
+.system-btn:nth-child(even) {
+    background-color: #10922e; /* Even button color */
+}
+
+/* System image styles */
+.system-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 320px; /* Adjust to make the image smaller */
+    max-height: 240px; /* Adjust to make the image smaller */
+    width: auto; /* Ensures aspect ratio is maintained */
+    height: auto; /* Ensures aspect ratio is maintained */
+}
+
+/* Details styles */
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.flight-log-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 15px; /* Gap between columns */
+}
+
+.details div {
+    background-color: #f1f1f1; /* Light grey background for each detail box */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left; /* Align text to the left */
+}
+
+.details label {
+    font-weight: bold;
+}
+
+.details span {
+    display: block;
+}
