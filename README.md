@@ -34,7 +34,7 @@ The Flight Log Management System offers several key functions to streamline dron
 5. For assistance, use the integrated ChatGPT feature.
 
 ## Feedback and Support
-- For feedback or support, contact [Atiq](https://atiq.no) at [aakash.unipune@gmail.com].
+- For feedback or support, contact [Atiq](https://atiq.no) at aakash.unipune@gmail.com.
 - Contributions and suggestions are welcome via GitHub pull requests.
 
 ## License
