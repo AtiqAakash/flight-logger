@@ -5,7 +5,7 @@ Flight Log Management System: Track drone flight logs, operator activity, and fl
 <img src="https://images.squarespace-cdn.com/content/v1/6540bd7a746edd2f17ce3c19/39dd2695-7e4e-47f3-96ec-67d9ef5f8efb/Robot+Aviation++Logo_01_DarkBlueGrad_DarkText.png" alt="Project Logo" width="500" height="150">
 
 ## Overview
-The Flight Log Management System offers several key functions to streamline drone flight log tracking and operator activity monitoring. Developed for [Robot Aviation](https://robotaviation.com), it provides a user-friendly interface for managing flight data effectively.
+The Flight Log Management System offers several key functions to streamline drone flight log tracking and operator activity monitoring. Developed for [Robot Aviation](https://robotaviation.com), it provides a user-friendly interface for managing flight data effectively. This is still under development.
 
 ## Features
 - **Front Page Display:** View the entire flight log database, sorted by latest flights.
